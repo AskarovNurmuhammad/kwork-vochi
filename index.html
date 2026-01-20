@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,13 +22,13 @@
       <img src="image/Прозрачный фон.svg" alt="" class="h-10" />
       <nav>
         <ul class="flex gap-[32px] nav-ul">
-          <li>Возможности</li>
-          <li>Как это работает</li>
-          <li>Часто задаваемые вопросы</li>
+          <a href="#possibility"><li>Возможности</li></a>
+          <a href="#work"><li>Как это работает</li></a>
+          <a href="#questions"><li>Часто задаваемые вопросы</li></a>
         </ul>
       </nav>
       <button class="open-button text-white px-6 py-2 rounded-[113px]">
-        Открыть в Telegram
+        <a href="#">Открыть в Telegram</a>
       </button>
     </header>
     <!-- section -->
@@ -42,7 +42,7 @@
         <button
           class="bg-[#444A4B] text-white px-6 py-2 rounded-full text-sm font-medium"
         >
-          Новый
+          <a href="#"> Новый </a>
         </button>
         <button class="text-gray-700 px-6 py-2 text-sm">
           Персональный помощник
@@ -63,7 +63,7 @@
       <!-- Buttons -->
       <div class="flex flex-col md:flex-row justify-center gap-4 mb-8">
         <button class="open-button text-white px-6 py-2 rounded-[113px]">
-          Открыть в Telegram
+          <a href="https://t.me/nurmuhammadaskarov"> Открыть в Telegram </a>
         </button>
         <button
           class="bg-white hover:bg-gray-50 border border-gray-300 px-8 py-3 rounded-full font-medium"
@@ -80,6 +80,7 @@
 
     <!-- Section 2 - Как работает бот -->
     <section
+      id="work"
       class="bg-[#ECEFEC] mt-4 text-left px-4 py-16 max-w-7xl mx-auto rounded-[30px]"
     >
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -174,6 +175,7 @@
 
     <!-- Section 3 - Что умеет бот -->
     <section
+      id="possibility"
       class="bg-[#ECEFEC] mt-4 px-4 py-16 max-w-7xl mx-auto rounded-[30px]"
     >
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -519,6 +521,7 @@
     </section>
     <!-- 6 -->
     <section
+      id="questions"
       class="bg-[#FFF] rounded-[30px] py-12 lg:py-16 max-w-7xl mx-auto mt-[60px]"
     >
       <div class="max-w-4xl mx-auto px-4">
@@ -719,7 +722,7 @@
           class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center"
         >
           <!-- Left -->
-          <div class="text-center lg:text-left">
+          <div class="text-center lg:text-left lg:ml-[60px]">
             <h2
               class="text-[28px] lg:text-[44px] font-bold text-[#444A4B] mb-4 leading-tight"
             >
