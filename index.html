@@ -33,50 +33,58 @@
     </header>
     <!-- section -->
     <section
-      class="bg-[#fff] mt-4 text-center px-4 py-16 max-w-7xl mx-auto hero flex-column gap-[28px] rounded-[30px]"
+      class="bg-[#fff] mt-4 text-center px-4 py-16 max-w-7xl mx-auto hero flex-column gap-[28px] rounded-[30px] relative overflow-hidden"
     >
-      <!-- Badges -->
-      <div
-        class="inline-flex lg:w-[294px] w-[268px] items-center mx-auto gap-[10px] mb-7 border-[1px] border-[#444A4B] rounded-[113px] h-[30px] lg:p-[4px]"
-      >
-        <button
-          class="bg-[#444A4B] text-white h-[20px] lg:w-[63px] w-[57px] rounded-[113px] text-[12px] font-normal"
-        >
-          <a href="#"> Новый </a>
-        </button>
-        <button class="text-[#444A4B] h-[30px] lg:text-[16px] text-[14px]">
-          <h4>Персональный помощник</h4>
-        </button>
-      </div>
-      <!-- Heading -->
-      <h1 class="mb-7">
-        Вочы – умный помощник<br />
-        для выгодных покупок
-      </h1>
+      <!-- Orqa fon rasmi -->
+      <img src="" alt="" />
 
-      <!-- Description -->
-      <p class="text-[#787878] fw-normal text-lg mb-7 max-w-2xl mx-auto">
-        Бот следит за объявлениями 24/7: находит новые предложения, учитывая
-        умеренную цену, и присылает уведомления мгновенно.
-      </p>
-
-      <!-- Buttons -->
-      <div class="flex flex-col md:flex-row justify-center gap-4 mb-8">
-        <button
-          class="open-button text-white px-6 py-2 rounded-[113px] border-[1px]"
+      <!-- Content - ustida -->
+      <div class="relative z-10">
+        <!-- Badges -->
+        <div
+          class="inline-flex lg:w-[294px] w-[268px] items-center mx-auto gap-[10px] mb-7 border-[1px] border-[#444A4B] rounded-[113px] h-[30px] p-1 lg:p-[4px]"
         >
-          <a href="https://t.me/nurmuhammadaskarov"> Открыть в Telegram </a>
-        </button>
-        <button
-          class="text-[#444A4B] border-[1px] border-[#444A4B] p-[10px] rounded-full font-medium hover:bg-[#6DB3931A] h-[44px]"
-        >
-          <a href="#work">Как это работает</a>
-        </button>
-      </div>
+          <button
+            class="bg-[#444A4B] text-white h-[20px] lg:w-[63px] w-[57px] rounded-[113px] text-[12px] font-normal"
+          >
+            <a href="#"> Новый </a>
+          </button>
+          <button class="text-[#444A4B] h-[30px] lg:text-[16px] text-[14px]">
+            <h4>Персональный помощник</h4>
+          </button>
+        </div>
+        <!-- Heading -->
+        <h1 class="mb-7">
+          Вочы – умный помощник<br />
+          для выгодных покупок
+        </h1>
 
-      <!-- Image Placeholder -->
-      <div class="rounded-[32px] overflow-hidden shadow-2xl max-w-2xl mx-auto">
-        <img src="image/image 32.png" alt="fon" class="w-full h-auto" />
+        <!-- Description -->
+        <p class="text-[#787878] fw-normal text-lg mb-7 max-w-2xl mx-auto">
+          Бот следит за объявлениями 24/7: находит новые предложения, учитывая
+          умеренную цену, и присылает уведомления мгновенно.
+        </p>
+
+        <!-- Buttons -->
+        <div class="flex flex-col md:flex-row justify-center gap-4 mb-8">
+          <button
+            class="open-button text-white px-6 py-2 rounded-[113px] border-[1px]"
+          >
+            <a href="https://t.me/nurmuhammadaskarov"> Открыть в Telegram </a>
+          </button>
+          <button
+            class="text-[#444A4B] border-[1px] border-[#444A4B] p-[10px] rounded-full font-medium hover:bg-[#6DB3931A] w-[300px] h-[44px]"
+          >
+            <a href="#work">Как это работает</a>
+          </button>
+        </div>
+
+        <!-- Image Placeholder -->
+        <div
+          class="rounded-[32px] overflow-hidden shadow-2xl max-w-2xl mx-auto relative z-10"
+        >
+          <img src="image/image 32.png" alt="fon" class="w-full h-auto" />
+        </div>
       </div>
     </section>
 
@@ -183,7 +191,7 @@
         <div class="flex flex-col justify-center">
           <div class="inline-block mb-6">
             <button
-              class="bg-[#FFFFFF] border-2 border-[#444A4B] text-[#444A4B] text-[16px] px-6 py-2 rounded-[113px] text-base leading-[30px] hover:bg-[#6DB3931A] h-[28px] flex items-center justify-center"
+              class="bg-[#FFFFFF] border-[1px] border-[#444A4B] text-[#444A4B] text-[16px] px-6 py-2 rounded-[113px] text-base leading-[30px] hover:bg-[#6DB3931A] h-[28px] flex items-center justify-center"
             >
               <a href="#">Ваш ассистент для выгоды времени</a>
             </button>
@@ -266,7 +274,7 @@
               <img src="image/Group4.png" alt="" />
             </div>
             <h3
-              class="text-[16px] font-semibold text-[#444A4B] lg:mb-[46px] mb-8]"
+              class="text-[16px] font-semibold text-[#444A4B] lg:mb-[46px] mb-8"
             >
               Статистика цен
             </h3>
@@ -393,8 +401,8 @@
       </div>
     </section>
     <!-- Section 5 - Узнайте, когда дешевле -->
-    <section class="section-5 max-w-7xl mx-auto">
-      <div class="section-5-container">
+    <section class="relative section-5 max-w-7xl mx-auto">
+      <div class="z-10 relative section-5-container">
         <!-- Left Side - Text Content -->
         <div class="section-5-content">
           <h2 class="section-5-title">Узнайте, когда дешевле</h2>
@@ -445,7 +453,7 @@
           <!-- FAQ Item 1 - Open by default -->
           <div class="faq-item mb-8">
             <button
-              class="faq-question w-full text-left px-6 lg:px-8 py-5 lg:py-6 hover:bg-gray-50 transition-colors"
+              class="faq-question w-full text-left lg:px-8 py-5 lg:py-6 hover:bg-gray-50 transition-colors"
             >
               <div
                 class="flex justify-between items-center border-b border-[#D9D9D999] pb-4"
@@ -481,7 +489,7 @@
           <!-- FAQ Item 2 -->
           <div class="faq-item">
             <button
-              class="faq-question w-full text-left px-6 lg:px-8 py-5 lg:py-6 hover:bg-gray-50 transition-colors"
+              class="faq-question w-full text-left lg:px-8 py-5 lg:py-6 hover:bg-gray-50 transition-colors"
             >
               <div
                 class="flex justify-between items-center border-b border-[#D9D9D999] pb-4"
@@ -517,7 +525,7 @@
           <!-- FAQ Item 3 -->
           <div class="faq-item">
             <button
-              class="faq-question w-full text-left px-6 lg:px-8 py-5 lg:py-6 hover:bg-gray-50 transition-colors"
+              class="faq-question w-full text-left lg:px-8 py-5 lg:py-6 hover:bg-gray-50 transition-colors"
             >
               <div
                 class="flex justify-between items-center border-b border-[#D9D9D999] pb-4"
@@ -553,7 +561,7 @@
           <!-- FAQ Item 4 -->
           <div class="faq-item">
             <button
-              class="faq-question w-full text-left px-6 lg:px-8 py-5 lg:py-6 hover:bg-gray-50 transition-colors"
+              class="faq-question w-full text-left lg:px-8 py-5 lg:py-6 hover:bg-gray-50 transition-colors"
             >
               <div
                 class="flex justify-between items-center border-b border-[#D9D9D999] pb-4"
@@ -589,7 +597,7 @@
           <!-- FAQ Item 5 -->
           <div class="faq-item">
             <button
-              class="faq-question w-full text-left px-6 lg:px-8 py-5 lg:py-6 hover:bg-gray-50 transition-colors"
+              class="faq-question w-full text-left lg:px-8 py-5 lg:py-6 hover:bg-gray-50 transition-colors"
             >
               <div
                 class="flex justify-between items-center border-b border-[#D9D9D999] pb-4"
@@ -626,64 +634,67 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="relative z-10 mt-20 px-4">
-      <div
-        class="bg-white max-w-7xl mx-auto px-4 py-12 lg:py-16 rounded-[30px] shadow-[0px_1px_50.2px_0px_rgba(109,179,147,0.15)]"
-      >
+    <section class="mt-20 px-4">
+      <div class="relative">
+        <!-- White content div -->
         <div
-          class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center"
+          class="bg-white max-w-7xl mx-auto px-4 py-12 lg:py-16 rounded-[30px] shadow-[0px_1px_50.2px_0px_rgba(109,179,147,0.15)] relative z-10"
         >
-          <!-- Left -->
-          <div class="text-center lg:text-left lg:ml-[60px]">
-            <h2
-              class="!text-[32px] lg:!text-[45px] font-bold text-[#444A4B] mb-8"
-            >
-              Упростите свою жизнь с помощью бота
-            </h2>
+          <div
+            class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center"
+          >
+            <!-- Left -->
+            <div class="text-center lg:text-left lg:ml-[60px]">
+              <h2
+                class="!text-[32px] lg:!text-[45px] font-bold text-[#444A4B] mb-8"
+              >
+                Упростите свою жизнь с помощью бота
+              </h2>
 
-            <p
-              class="text-[#787878] text-[14px] lg:text-[16px] mb-8 max-w-lg mx-auto lg:mx-0"
-              style="width: 300px"
-            >
-              Начните прямо сейчас. Откройте бота и получите мгновенный доступ к
-              лучшим предложениям.
-            </p>
-
-            <button
-              class="open-button bg-[#6DB393] hover:bg-[#5aa684] text-white px-8 py-3 rounded-full font-medium"
-            >
-              <a href="#"> Начать бесплатно </a>
-            </button>
-          </div>
-
-          <!-- Right (Phone + Cards) -->
-          <div class="relative flex justify-center lg:justify-end">
-            <!-- Comment Card 1 -->
-            <div
-              class="absolute z-20 top-[81px] left-0 lg:-left-[-350px] left-[150px] rounded-2xl shadow-lg px-4 py-3 text-[#444A4B] text-[10px] lg:text-[14px] max-w-[220px] bg-white/80 backdrop-blur-[16px] rounded-2xl px-4 py-3 shadow-[12px_36px_50px_0px_rgba(104,115,116,0.1)] border border-white/40"
-            >
-              <strong>Помогаю не переплатить</strong>
-              <p class="text-[#787878] text-[1px] lg:text-xs mt-1">
-                Подсказываю, когда цена ниже средней.
+              <p
+                class="text-[#787878] text-[14px] lg:text-[16px] mb-8 max-w-lg mx-auto lg:mx-0"
+                style="width: 300px"
+              >
+                Начните прямо сейчас. Откройте бота и получите мгновенный доступ
+                к лучшим предложениям.
               </p>
+
+              <button
+                class="open-button bg-[#6DB393] hover:bg-[#5aa684] text-white px-8 py-3 rounded-full font-medium"
+              >
+                <a href="#"> Начать бесплатно </a>
+              </button>
             </div>
 
-            <!-- Comment Card 2 -->
-            <div
-              class="absolute z-20 bottom-12 right-0 lg:-right-[-340px] right-[160px] bg-white rounded-2xl shadow-lg px-4 py-3 text-[10px] lg:text-[14px] text-[#444A4B] max-w-[220px] bg-white/80 backdrop-blur-[16px] rounded-2xl px-4 py-3 shadow-[-12.18px_36px_50px_0px_rgba(104,115,116,0.1)]"
-            >
-              <strong>Нахожу лучшие цены</strong>
-              <p class="text-[#787878] text-xs mt-1">
-                Сравниваю стоимость и показываю, где выгоднее.
-              </p>
-            </div>
+            <!-- Right (Phone + Cards) -->
+            <div class="relative flex justify-center lg:justify-end">
+              <!-- Comment Card 1 -->
+              <div
+                class="absolute z-20 top-[81px] left-0 lg:-left-[-350px] left-[135px] rounded-2xl shadow-lg px-4 py-3 text-[#444A4B] text-[10px] lg:text-[14px] max-w-[220px] bg-white/80 backdrop-blur-[16px] rounded-2xl px-4 py-3 shadow-[12px_36px_50px_0px_rgba(104,115,116,0.1)] border border-white/40"
+              >
+                <strong>Помогаю не переплатить</strong>
+                <p class="text-[#787878] text-[1px] lg:text-xs mt-1">
+                  Подсказываю, когда цена ниже средней.
+                </p>
+              </div>
 
-            <!-- Phone Image -->
-            <img
-              src="image/Group 1948753673.png"
-              alt="Telegram Bot on Phone"
-              class="relative z-10 max-w-[280px] lg:max-w-[320px] lg:mb-[-64px] mb-[-50px] ml-[140px] mr-[139px]"
-            />
+              <!-- Comment Card 2 -->
+              <div
+                class="absolute z-20 bottom-12 right-0 lg:-right-[-340px] right-[140px] bg-white rounded-2xl shadow-lg px-4 py-3 text-[10px] lg:text-[14px] text-[#444A4B] max-w-[220px] bg-white/80 backdrop-blur-[16px] rounded-2xl px-4 py-3 shadow-[-12.18px_36px_50px_0px_rgba(104,115,116,0.1)]"
+              >
+                <strong>Нахожу лучшие цены</strong>
+                <p class="text-[#787878] text-xs mt-1">
+                  Сравниваю стоимость и показываю, где выгоднее.
+                </p>
+              </div>
+
+              <!-- Phone Image -->
+              <img
+                src="image/Group 1948753673.png"
+                alt="Telegram Bot on Phone"
+                class="relative z-10 max-w-[280px] lg:max-w-[320px] lg:mb-[-64px] mb-[-50px] ml-[140px] mr-[139px]"
+              />
+            </div>
           </div>
         </div>
       </div>
