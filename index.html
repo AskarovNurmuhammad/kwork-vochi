@@ -17,7 +17,7 @@
   </head>
   <body>
     <header
-      class="bg-white max-w-7xl mx-auto flex items-center justify-between p-[8px] rounded-[120px]"
+      class="bg-white max-w-7xl mx-auto flex items-center justify-between py-[8px] pr-[8px] rounded-[120px]"
     >
       <img src="image/Прозрачный фон.svg" alt="" class="h-[38px] lg:h-[46px]" />
       <nav>
@@ -27,16 +27,22 @@
           <a href="#questions"><li>Часто задаваемые вопросы</li></a>
         </ul>
       </nav>
-      <button class="open-button text-white p-[10px] h-[44px] rounded-[113px]">
+      <button
+        class="open-button text-white px-[7px] py-[14px] h-[44px] rounded-[113px]"
+      >
         <a href="#">Открыть в Telegram</a>
       </button>
     </header>
     <!-- section -->
     <section
-      class="bg-[#fff] mt-4 text-center px-4 py-16 max-w-7xl mx-auto hero flex-column gap-[28px] rounded-[30px] relative overflow-hidden"
+      class="bg-[#fff] mt-4 text-center py-16 max-w-7xl mx-3 hero flex-column gap-[28px] rounded-[30px] relative overflow-hidden"
     >
       <!-- Orqa fon rasmi -->
-      <img src="" alt="" />
+      <img
+        src=""
+        alt=""
+        class="absolute bottom-[-390px] right-[-150px] rotate-[35deg] lg:d-block"
+      />
 
       <!-- Content - ustida -->
       <div class="relative z-10">
@@ -67,9 +73,7 @@
 
         <!-- Buttons -->
         <div class="flex flex-col md:flex-row justify-center gap-4 mb-8">
-          <button
-            class="open-button text-white px-6 py-2 rounded-[113px] border-[1px]"
-          >
+          <button class="open-button text-white px-6 py-2 rounded-[113px]">
             <a href="https://t.me/nurmuhammadaskarov"> Открыть в Telegram </a>
           </button>
           <button
@@ -81,7 +85,7 @@
 
         <!-- Image Placeholder -->
         <div
-          class="rounded-[32px] overflow-hidden shadow-2xl max-w-2xl mx-auto relative z-10"
+          class="rounded-[32px] overflow-hidden shadow-2xl max-w-2xl mx-auto lg:mb-[-20px] relative z-10"
         >
           <img src="image/image 32.png" alt="fon" class="w-full h-auto" />
         </div>
@@ -91,7 +95,7 @@
     <!-- Section 2 - Как работает бот -->
     <section
       id="work"
-      class="bg-[#ECEFEC] mt-4 text-left px-4 py-16 max-w-7xl mx-auto rounded-[30px]"
+      class="bg-[#ECEFEC] mt-4 text-left px-4 py-16 max-w-7xl rounded-[30px]"
     >
       <div
         class="flex flex-col-reverse lg:grid lg:grid-cols-2 gap-12 items-center"
@@ -184,14 +188,14 @@
     <!-- Section 3 - Что умеет бот -->
     <section
       id="possibility"
-      class="bg-[#ECEFEC] mt-4 px-4 py-16 max-w-7xl mx-auto rounded-[30px]"
+      class="bg-[#ECEFEC] mt-4 px-0 py-16 max-w-7xl mx-3 rounded-[30px]"
     >
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
         <!-- Left Side - Text Content -->
-        <div class="flex flex-col justify-center">
+        <div class="flex flex-col mobil-button justify-center">
           <div class="inline-block mb-6">
             <button
-              class="bg-[#FFFFFF] border-[1px] border-[#444A4B] text-[#444A4B] text-[16px] px-6 py-2 rounded-[113px] text-base leading-[30px] hover:bg-[#6DB3931A] h-[28px] flex items-center justify-center"
+              class="bg-[#FFFFFF] border-[1px] border-[#444A4B] text-[#444A4B] text-[16px] px-3 py-1 rounded-[113px] text-base leading-[30px] hover:bg-[#6DB3931A] h-[30px] flex items-center justify-center"
             >
               <a href="#">Ваш ассистент для выгоды времени</a>
             </button>
@@ -239,7 +243,7 @@
           <!-- Feature 2 -->
           <div class="bg-white rounded-[24px] p-6">
             <div class="mb-4">
-              <img src="image/Group2.png" alt="" />
+              <img src="image/f2.svg" alt="" />
             </div>
             <h3
               class="text-[16px] font-semibold text-[#444A4B] lg:mb-[46px] mb-8"
@@ -255,7 +259,7 @@
           <!-- Feature 3 -->
           <div class="bg-white rounded-[24px] p-6">
             <div class="mb-4">
-              <img src="image/Group3.png" alt="" />
+              <img src="image/f3.svg" alt="" />
             </div>
             <h3
               class="text-[16px] font-semibold text-[#444A4B] lg:mb-[46px] mb-8"
@@ -271,7 +275,7 @@
           <!-- Feature 4 -->
           <div class="bg-white rounded-[24px] p-6">
             <div class="mb-4">
-              <img src="image/Group4.png" alt="" />
+              <img src="image/f4.svg" alt="" />
             </div>
             <h3
               class="text-[16px] font-semibold text-[#444A4B] lg:mb-[46px] mb-8"
@@ -289,13 +293,11 @@
 
     <!-- Section 4 - Кому полезен бот -->
     <section
-      class="bg-[#ECEFEC] mt-4 px-4 py-12 lg:py-16 max-w-7xl mx-auto rounded-[30px]"
+      class="bg-[#ECEFEC] mt-4 px-0 py-12 lg:py-16 max-w-7xl mx-3 rounded-[30px]"
     >
       <div class="flex flex-col lg:grid lg:grid-cols-2 gap-8 lg:gap-12">
         <!-- Text Content - MOBILE DA BIRINCHI -->
-        <div
-          class="flex flex-col justify-center text-center lg:text-left lg:order-2"
-        >
+        <div class="flex flex-col justify-center lg:order-2 lg:ml-[200px]">
           <div class="inline-block mb-6 mx-auto lg:mx-0">
             <button
               class="bg-[#FFFFFF] border-[1px] border-[#444A4B] text-[#444A4B] px-4 lg:px-6 py-2 rounded-[113px] text-sm lg:text-base leading-[30px] hover:bg-[#6DB3931A] h-[28px] flex items-center"
@@ -307,7 +309,7 @@
           <h2
             class="text-[28px] lg:text-[44px] font-bold text-[#444A4B] mb-4 lg:mb-6 leading-tight"
           >
-            Кому полезен бот?
+            Кому полезен бот
           </h2>
 
           <p
@@ -331,7 +333,7 @@
           <!-- Feature 1 -->
           <div class="bg-white rounded-[20px] lg:rounded-[24px] p-5 lg:p-6">
             <div class="mb-4">
-              <img src="image/Group5.png" alt="" />
+              <img src="image/f5.svg" alt="" />
             </div>
             <h3
               class="text-[16px] lg:text-[18px] font-semibold text-[#444A4B] mb-2 lg:mb-[46px] mb-8"
@@ -350,7 +352,7 @@
             <div
               class="w-8 h-8 rounded-full bg-[#E8F5EE] flex items-center justify-center mb-3 lg:mb-4"
             >
-              <img src="image/lucide_house.png" alt="" />
+              <img src="image/lucide_house.svg" alt="" />
             </div>
             <h3
               class="text-[16px] lg:text-[18px] font-semibold text-[#444A4B] mb-2 lg:mb-[46px] mb-8"
@@ -367,7 +369,7 @@
           <!-- Feature 3 -->
           <div class="bg-white rounded-[20px] lg:rounded-[24px] p-5 lg:p-6">
             <div class="mb-4">
-              <img src="image/Group7.png" alt="" />
+              <img src="image/f7.svg" alt="" />
             </div>
             <h3
               class="text-[16px] lg:text-[18px] font-semibold text-[#444A4B] mb-2 lg:mb-[46px] mb-8"
@@ -384,7 +386,7 @@
           <!-- Feature 4 -->
           <div class="bg-white rounded-[20px] lg:rounded-[24px] p-5 lg:p-6">
             <div class="mb-4">
-              <img src="image/Group8.png" alt="" />
+              <img src="image/f8.svg" alt="" />
             </div>
             <h3
               class="text-[16px] lg:text-[18px] font-semibold text-[#444A4B] mb-2 lg:mb-[46px] mb-8"
@@ -401,7 +403,7 @@
       </div>
     </section>
     <!-- Section 5 - Узнайте, когда дешевле -->
-    <section class="relative section-5 max-w-7xl mx-auto">
+    <section class="relative section-5 max-w-7xl !mx-3 px-4">
       <div class="z-10 relative section-5-container">
         <!-- Left Side - Text Content -->
         <div class="section-5-content">
@@ -432,7 +434,7 @@
     <!-- 6 -->
     <section
       id="questions"
-      class="bg-[#FFF] rounded-[30px] py-12 lg:py-16 max-w-7xl mx-auto mt-[60px]"
+      class="mx-3 bg-[#FFF] rounded-[30px] py-12 lg:py-16 max-w-7xl mt-[60px]"
     >
       <div class="max-w-4xl mx-auto px-4">
         <!-- Header -->
@@ -634,7 +636,7 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="mt-20 px-4">
+    <section class="mt-20 mx-3">
       <div class="relative">
         <!-- White content div -->
         <div
@@ -660,7 +662,7 @@
               </p>
 
               <button
-                class="open-button bg-[#6DB393] hover:bg-[#5aa684] text-white px-8 py-3 rounded-full font-medium"
+                class="open-button lg:w-[182px] bg-[#6DB393] hover:bg-[#5aa684] text-white rounded-full font-medium"
               >
                 <a href="#"> Начать бесплатно </a>
               </button>
@@ -670,9 +672,11 @@
             <div class="relative flex justify-center lg:justify-end">
               <!-- Comment Card 1 -->
               <div
-                class="absolute z-20 top-[81px] left-0 lg:-left-[-350px] left-[135px] rounded-2xl shadow-lg px-4 py-3 text-[#444A4B] text-[10px] lg:text-[14px] max-w-[220px] bg-white/80 backdrop-blur-[16px] rounded-2xl px-4 py-3 shadow-[12px_36px_50px_0px_rgba(104,115,116,0.1)] border border-white/40"
+                class="comment-card absolute z-20 top-[81px] left-0 lg:-left-[-350px] left-[135px] rounded-2xl shadow-lg px-4 py-3 text-[#444A4B] text-[10px] lg:text-[12px] max-w-[220px] bg-white/80 backdrop-blur-[16px] rounded-2xl px-4 py-3 shadow-[12px_36px_50px_0px_rgba(104,115,116,0.1)] border border-white/40"
               >
-                <strong>Помогаю не переплатить</strong>
+                <strong class="font-medium text-[#32343E]"
+                  >Помогаю не переплатить</strong
+                >
                 <p class="text-[#787878] text-[1px] lg:text-xs mt-1">
                   Подсказываю, когда цена ниже средней.
                 </p>
@@ -680,10 +684,12 @@
 
               <!-- Comment Card 2 -->
               <div
-                class="absolute z-20 bottom-12 right-0 lg:-right-[-340px] right-[140px] bg-white rounded-2xl shadow-lg px-4 py-3 text-[10px] lg:text-[14px] text-[#444A4B] max-w-[220px] bg-white/80 backdrop-blur-[16px] rounded-2xl px-4 py-3 shadow-[-12.18px_36px_50px_0px_rgba(104,115,116,0.1)]"
+                class="comment-card absolute z-20 bottom-12 right-0 lg:-right-[-340px] right-[140px] bg-white rounded-2xl shadow-lg px-4 py-3 text-[10px] lg:text-[12px] text-[10px] text-[#444A4B] max-w-[220px] bg-white/80 backdrop-blur-[16px] rounded-2xl px-4 py-3 shadow-[-12.18px_36px_50px_0px_rgba(104,115,116,0.1)]"
               >
-                <strong>Нахожу лучшие цены</strong>
-                <p class="text-[#787878] text-xs mt-1">
+                <strong class="font-medium text-[#32343E]"
+                  >Нахожу лучшие цены</strong
+                >
+                <p class="text-[#787878] mt-1">
                   Сравниваю стоимость и показываю, где выгоднее.
                 </p>
               </div>
@@ -702,11 +708,10 @@
 
     <!-- Footer -->
     <footer
-      class="relative -mt-40 h-[336px] bg-[#444A4B] px-4 py-6 flex items-end justify-center"
+      class="relative -mt-40 h-[336px] bg-[#444A4B] flex items-end justify-center w-full"
     >
       <p class="text-white text-sm mb-6">© 2025 Вочы. Все права защищены.</p>
     </footer>
-
     <script src="index.js"></script>
   </body>
 </html>

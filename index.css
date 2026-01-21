@@ -7,7 +7,6 @@
 
 body {
   background: rgba(236, 239, 236, 1);
-  padding: 16px;
 }
 
 header {
@@ -27,7 +26,7 @@ header {
 
 header .open-button {
   width: 182px;
-  padding: 10px 20px !important;
+  padding: 7px 14px !important;
   font-size: 13px;
   white-space: nowrap;
   margin-right: 0;
@@ -105,7 +104,7 @@ header .open-button {
 }
 
 .section-5-title {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: bold;
   color: #444a4b;
   margin-bottom: 1rem;
@@ -145,6 +144,9 @@ header .open-button {
   display: block;
 }
 
+header img {
+  margin-left: 10px;
+}
 @media (max-width: 768px) {
   body {
     padding: 8px;
@@ -178,7 +180,6 @@ header .open-button {
   /* Hero Section Mobile */
   .hero {
     padding: 32px 20px !important;
-    margin: 12px 8px !important;
     border-radius: 24px !important;
   }
 
@@ -227,10 +228,10 @@ header .open-button {
     /* Header button */
     header .open-button {
       width: 162px;
-      padding: 10px 20px !important;
+      padding: 7px 14px !important;
       font-size: 13px;
       white-space: nowrap;
-      margin-right: 0;
+      margin-right: -7px;
     }
 
     .open-button {
@@ -411,6 +412,10 @@ header .open-button {
 
 /* Section 4 - Кому полезен бот - Mobile responsive */
 @media (max-width: 768px) {
+  .mobil-button {
+    align-items: center;
+  }
+
   /* Grid to single column */
   .bg-\[\#ECEFEC\]:nth-of-type(2) .grid {
     grid-template-columns: 1fr !important;
@@ -551,12 +556,14 @@ header .open-button {
 @media (max-width: 768px) {
   /* Section 6 - CTA */
   section:last-of-type h2 {
-    font-size: 26px !important;
-    line-height: 36px !important;
+    color: #32343e;
+    font-size: 25px !important;
+    line-height: 28px !important;
+    font-weight: 700;
   }
 
   section:last-of-type p {
-    font-size: 14px !important;
+    font-size: 10px !important;
     width: 154px;
   }
 
@@ -574,4 +581,8 @@ header .open-button {
   border: none !important;
   margin: 10px;
   margin-top: -20px;
+}
+
+footer {
+  width: 110vw;
 }
