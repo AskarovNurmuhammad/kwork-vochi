@@ -12,6 +12,7 @@ body {
 
 header {
   background: rgba(255, 255, 255, 1);
+  height: 60px;
 }
 
 .nav-ul li {
@@ -26,8 +27,12 @@ header {
 
 .open-button {
   background: rgba(109, 179, 147, 1);
+  height: 44px;
 }
 
+.open-button:hover {
+  background-color: #42a580 !important;
+}
 .hero h1 {
   font-weight: 700;
   font-size: 44px;
@@ -124,11 +129,6 @@ header {
   margin-top: 2rem;
 }
 
-.section-5-image-container {
-  width: 100%;
-  max-width: 280px;
-}
-
 .section-5-image {
   width: 100%;
   height: auto;
@@ -149,7 +149,7 @@ header {
   }
 
   header img {
-    height: 28px !important;
+    height: 38px !important;
   }
 
   /* Navigation yashirish */
@@ -159,8 +159,9 @@ header {
 
   /* Header button */
   header .open-button {
-    padding: 10px 20px !important;
-    font-size: 13px;
+    padding: 7px 15px !important;
+    font-size: 16px;
+    font-weight: 400;
     white-space: nowrap;
   }
 
@@ -173,18 +174,8 @@ header {
 
   /* Badges - horizontal qolsin */
   .hero > div:first-child {
-    margin-bottom: 24px !important;
-    border-width: 1.5px !important;
-  }
-
-  .hero > div:first-child button {
-    padding: 8px 16px !important;
-    font-size: 12px !important;
-  }
-
-  .hero > div:first-child span {
-    padding: 8px 16px !important;
-    font-size: 12px !important;
+    display: flex !important;
+    padding: 4px !important;
   }
 
   /* Heading */
@@ -215,7 +206,7 @@ header {
     }
 
     header img {
-      height: 28px !important;
+      height: 38px !important;
     }
 
     /* Navigation yashirish */
@@ -241,11 +232,6 @@ header {
     .hero > div:first-child {
       margin-bottom: 24px !important;
       border-width: 1.5px !important;
-    }
-
-    .hero > div:first-child button {
-      padding: 8px 16px !important;
-      font-size: 12px !important;
     }
 
     .hero > div:first-child span {
@@ -374,7 +360,7 @@ header {
   /* Button Перейти к боту */
   .bg-\[\#ECEFEC\] > div > div:first-child > button:last-child {
     width: 100% !important;
-    padding: 14px 24px !important;
+    padding: 10px !important;
   }
 
   /* Features Grid - 1 column */
@@ -549,12 +535,12 @@ header {
 @media (max-width: 768px) {
   /* Section 6 - CTA */
   section:last-of-type h2 {
-    font-size: 28px !important;
+    font-size: 26px !important;
     line-height: 36px !important;
   }
 
   section:last-of-type p {
-    font-size: 10px !important;
+    font-size: 14px !important;
     width: 154px;
   }
 
@@ -571,4 +557,11 @@ header {
   footer p {
     font-size: 12px !important;
   }
+}
+
+.faq-item {
+  padding: 0;
+  border: none !important;
+  margin: 10px;
+  margin-top: -20px;
 }
